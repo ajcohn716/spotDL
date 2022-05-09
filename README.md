@@ -11,9 +11,9 @@ yt-dlp
 I'm pretty sure it doesn't work on Windows. I haven't tested it. It uses rm and clear. I don't think that works on windows.
 The playlist needs to be public or the program crashes. Yes I could easily code an error message. No I will not. RTFM
 # USAGE
-Edit spotCSV.py to include the ID and secret for the development account. It is the lines right after the module imports.
+Edit spotCSV.py to include the ID and secret for the development account (Lines 10 and 11, right after the module imports)
 
-Put spotCSV.py into the directory you want to download the playlist to and run it. Input the playlist link. Hit enter. Program should download for you.
+Put spotCSV.py into the directory you want to download the playlist to and run it. Input the playlist link. Hit enter. Program should populate the directory with TITLE ARTIST.mp3, then remove the final.csv when it's done. 
 
 # Tweaks
 Line 62 defines the variable "youtubedl_cmd". Edit this variable with whatever flavour of youtube dl suits your fancy. You can use a different fork of youtube-dl, or convert to another format. The world really is your oyester.
