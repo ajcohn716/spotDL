@@ -1,5 +1,5 @@
 # spotDL
-program for exporting spotify playlists as mp3s
+program for exporting spotify playlists as mp3s. takes in a playlist link, spits out a csv, and pipes it to ytdlp. There's probably a better way than this.
 
 # REQUIREMENTS
 spotipy pip module
@@ -8,7 +8,8 @@ spotify developer account
 
 yt-dlp
 # KNOWN ISSUES
-I'm pretty sure it doesn't work on Windows. I haven't tested it. It uses rm. I don't think that works on windows. 
+I'm pretty sure it doesn't work on Windows. I haven't tested it. It uses rm and clear. I don't think that works on windows.
+The playlist needs to be public or the program crashes. Yes I could easily code an error message. No I will not. RTFM
 # USAGE
 Edit spotCSV.py to include the ID and secret for the development account. It is the lines right after the module imports.
 
